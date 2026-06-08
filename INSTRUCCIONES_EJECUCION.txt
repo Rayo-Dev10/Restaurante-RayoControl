@@ -1,0 +1,12 @@
+Restaurante-RayoControl - GA7-220501096-AA2-EV01
+
+1. Crear una base de datos PostgreSQL llamada rayocontrol_db.
+2. Ejecutar el script database/schema.sql.
+3. Editar src/main/java/co/edu/sena/rayocontrol/config/DatabaseConnection.java con el usuario y contraseña reales.
+4. Compilar el proyecto con:
+   mvn clean compile
+5. Ejecutar el proyecto con:
+   mvn exec:java
+6. Crear el repositorio en GitHub, subir el proyecto y pegar el enlace en enlace_repositorio.txt.
+
+El proyecto contiene un módulo CRUD de productos del menú con Java, JDBC y PostgreSQL.
