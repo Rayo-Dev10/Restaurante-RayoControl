@@ -1,0 +1,40 @@
+RESTAURANTE-RAYOCONTROL
+GA7-220501096-AA3-EV01
+
+EVIDENCIA
+Codificacion de modulos del software stand-alone, web y movil de acuerdo al proyecto a desarrollar.
+
+TECNOLOGIAS
+- Java 21
+- Maven
+- Spring Boot 3.5.14
+- Thymeleaf
+- Spring Data JPA
+- PostgreSQL
+
+BASE DE DATOS
+- Base de datos: rayocontrol_db
+- Usuario local: postgres
+- Contrasena local: colombia
+- Tabla principal: products
+
+PASOS DE EJECUCION
+1. Verificar que PostgreSQL este activo.
+2. Verificar que exista la base de datos rayocontrol_db.
+3. Ejecutar el archivo database/schema.sql si la tabla products no existe.
+4. Abrir la terminal o CMD en la raiz del proyecto.
+5. Ejecutar el comando: mvn clean compile
+6. Ejecutar el comando: mvn spring-boot:run
+7. Abrir en el navegador: http://localhost:8080/
+8. Ingresar al modulo de productos desde la pagina inicial o abrir directamente:
+   http://localhost:8080/products
+9. Probar las funciones principales:
+   - listado de productos
+   - creacion
+   - edicion
+   - busqueda
+   - eliminacion
+
+NOTAS
+- Esta evidencia conserva la tabla products usada en GA7-220501096-AA2-EV02, pero cambia la arquitectura a Spring Boot para cumplir el criterio de aplicacion de framework Java.
+- La carpeta target no debe subirse al repositorio ni incluirse en el ZIP final.

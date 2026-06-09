@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-th-text="${pageTitle}">Producto</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" data-th-href="@{/assets/css/styles.css}" />
+  </head>
+
+  <body>
+    <main class="form-page">
+      <section class="card">
+        <h1 data-th-text="${pageTitle}">Nuevo producto</h1>
+
+        <form action="/products/save" data-th-action="@{/products/save}" data-th-object="${product}" method="post">
+          <input type="hidden" name="productId" data-th-field="*{productId}" />
+
+          <label>
+            Nombre del producto
+            <input type="text" name="productName" data-th-field="*{productName}" required />
+            <span
+              class="field-error"
+              data-th-if="${#fields.hasErrors('productName')}"
+              data-th-errors="*{productName}"
+            ></span>
+          </label>
+
+          <label>
+            Descripción
+            <input type="text" name="description" data-th-field="*{description}" />
+          </label>
+
+          <label>
+            Precio unitario
+            <input
+              type="number"
+              name="unitPrice"
+              step="0.01"
+              min="0"
+              data-th-field="*{unitPrice}"
+              required
+            />
+            <span
+              class="field-error"
+              data-th-if="${#fields.hasErrors('unitPrice')}"
+              data-th-errors="*{unitPrice}"
+            ></span>
+          </label>
+
+          <label>
+            Cantidad en inventario
+            <input
+              type="number"
+              name="stockQuantity"
+              min="0"
+              data-th-field="*{stockQuantity}"
+              required
+            />
+            <span
+              class="field-error"
+              data-th-if="${#fields.hasErrors('stockQuantity')}"
+              data-th-errors="*{stockQuantity}"
+            ></span>
+          </label>
+
+          <label>
+            Categoría
+            <input type="text" name="category" data-th-field="*{category}" required />
+            <span
+              class="field-error"
+              data-th-if="${#fields.hasErrors('category')}"
+              data-th-errors="*{category}"
+            ></span>
+          </label>
+
+          <label>
+            Disponible
+            <select name="available" data-th-field="*{available}">
+              <option value="true">Sí</option>
+              <option value="false">No</option>
+            </select>
+          </label>
+
+          <div class="form-actions">
+            <button class="button" type="submit">Guardar</button>
+            <a class="secondary" href="/products" data-th-href="@{/products}">Cancelar</a>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
