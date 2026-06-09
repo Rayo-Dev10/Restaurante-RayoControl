@@ -1,0 +1,27 @@
+RESTAURANTE-RAYOCONTROL - GA7-220501096-AA4-EV03
+
+EVIDENCIA:
+Componente frontend del proyecto formativo y proyectos de clase (listas de chequeo).
+
+TECNOLOGIAS:
+React, Vite, JavaScript y CSS puro.
+
+OBJETIVO:
+Ejecutar un componente frontend funcional del proyecto Restaurante-RayoControl, con navegacion entre modulos y gestion local de productos.
+
+REQUISITOS:
+1. Tener Node.js instalado.
+2. Abrir CMD o PowerShell en la carpeta GA7-220501096-AA4-EV03.
+3. Ejecutar npm install.
+4. Ejecutar npm run dev.
+5. Abrir la URL local indicada por Vite, normalmente http://localhost:5173/.
+6. Probar la navegacion por Dashboard, Productos, Pedidos, Clientes, Reservas, Inventario, Pagos y Acceso.
+7. En Productos, probar crear, editar, eliminar y cambiar disponibilidad.
+8. En Acceso, revisar la interfaz visual preparada para una futura integracion con servicios web de registro e inicio de sesion.
+
+NOTAS:
+- Esta evidencia no consume API ni backend porque el alcance solicitado es el componente frontend.
+- Los datos se manejan localmente para demostrar navegacion, componentes, eventos y estado en React.
+- La carpeta node_modules no debe subirse al repositorio ni incluirse en el ZIP final.
+- La carpeta dist no debe subirse al repositorio ni incluirse en el ZIP final.
+- El enlace del repositorio esta en enlace_repositorio.txt.
