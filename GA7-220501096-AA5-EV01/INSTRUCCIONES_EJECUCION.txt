@@ -1,0 +1,34 @@
+RESTAURANTE-RAYOCONTROL - GA7-220501096-AA5-EV01
+
+EVIDENCIA:
+Diseño y desarrollo de servicios web - caso GA7-220501096-AA5-EV01.
+
+OBJETIVO:
+Crear servicios web en PHP para registro e inicio de sesión, recibiendo usuario y contraseña, validando la información y devolviendo mensajes JSON de autenticación satisfactoria o error de autenticación.
+
+TECNOLOGÍAS:
+PHP nativo, JSON, servicios web tipo API, almacenamiento local en users.json y versionamiento con Git/GitHub.
+
+REQUISITOS:
+1. Tener PHP instalado.
+2. Abrir CMD o PowerShell en la carpeta GA7-220501096-AA5-EV01.
+3. Ejecutar: php -S localhost:8000
+4. Probar el servicio de estado en: http://localhost:8000/api/health.php
+5. Probar registro con método POST hacia: http://localhost:8000/api/register.php
+6. Probar inicio de sesión con método POST hacia: http://localhost:8000/api/login.php
+
+PRUEBA DE REGISTRO EN POWERSHELL:
+Invoke-RestMethod -Uri "http://localhost:8000/api/register.php" -Method POST -ContentType "application/json" -Body '{"username":"rayo","password":"123456"}'
+
+PRUEBA DE INICIO DE SESIÓN EN POWERSHELL:
+Invoke-RestMethod -Uri "http://localhost:8000/api/login.php" -Method POST -ContentType "application/json" -Body '{"username":"rayo","password":"123456"}'
+
+PRUEBA DE ERROR DE AUTENTICACIÓN:
+Invoke-RestMethod -Uri "http://localhost:8000/api/login.php" -Method POST -ContentType "application/json" -Body '{"username":"rayo","password":"claveIncorrecta"}'
+
+NOTAS:
+- El archivo data/users.json almacena los usuarios registrados.
+- Las contraseñas no se guardan en texto plano; se protegen con password_hash.
+- El servicio login valida la contraseña mediante password_verify.
+- El proyecto no depende de base de datos externa para reducir errores de instalación.
+- Esta evidencia está preparada para que en una entrega posterior el frontend React pueda consumir los servicios de registro e inicio de sesión.

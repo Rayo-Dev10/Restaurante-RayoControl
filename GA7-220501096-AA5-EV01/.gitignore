@@ -1,0 +1,14 @@
+# Archivos del sistema y del editor
+.vscode/
+.idea/
+*.iml
+*.log
+.DS_Store
+
+# Archivos temporales
+tmp/
+temp/
+
+# Copias comprimidas de entrega
+*.zip
+*.rar
