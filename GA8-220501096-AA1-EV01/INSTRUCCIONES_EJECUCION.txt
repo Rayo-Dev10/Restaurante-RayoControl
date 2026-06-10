@@ -1,0 +1,13 @@
+GA8-220501096-AA1-EV01 - Restaurante-RayoControl
+
+1. Crear la base de datos rayocontrol_db en PostgreSQL.
+2. Ejecutar el script database/schema.sql.
+3. Verificar credenciales en src/main/resources/application.properties.
+4. Compilar el proyecto con: mvn clean package
+5. Ejecutar pruebas unitarias con: mvn test
+6. Ejecutar la aplicacion con: mvn spring-boot:run
+7. Abrir en el navegador: http://localhost:8080
+8. Probar el modulo de productos en: http://localhost:8080/products
+9. Probar el modulo de pedidos en: http://localhost:8080/orders
+
+La evidencia integra los modulos de productos y pedidos mediante Spring Boot, Thymeleaf, JPA, PostgreSQL, Maven, pruebas unitarias y control de versiones con Git.

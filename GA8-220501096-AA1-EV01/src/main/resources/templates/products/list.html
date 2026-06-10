@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" data-th-href="@{/assets/css/styles.css}" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Productos del menú</h1>
+        <p>
+          Administración web de productos mediante Spring Boot, Thymeleaf, JPA y
+          PostgreSQL.
+        </p>
+      </div>
+      <a class="button" href="/products/new" data-th-href="@{/products/new}">Nuevo producto</a>
+    </header>
+
+    <main class="container">
+      <section class="search-panel">
+        <form action="/products" data-th-action="@{/products}" method="get">
+          <label>
+            Buscar producto
+            <input
+              type="text"
+              name="search"
+              data-th-value="${search}"
+              placeholder="Ejemplo: Limonada"
+            />
+          </label>
+
+          <div class="form-actions">
+            <button class="button" type="submit">Buscar</button>
+            <a class="secondary" href="/products" data-th-href="@{/products}">Limpiar</a>
+          </div>
+        </form>
+      </section>
+
+      <p
+        class="success-message"
+        data-th-if="${successMessage}"
+        data-th-text="${successMessage}"
+      ></p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Producto</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Categoría</th>
+            <th>Disponible</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-th-if="${#lists.isEmpty(products)}">
+            <td colspan="8">No hay productos registrados.</td>
+          </tr>
+          <tr data-th-each="product : ${products}">
+            <td data-th-text="${product.productId}">1</td>
+            <td data-th-text="${product.productName}">Producto</td>
+            <td data-th-text="${product.description}">Descripción</td>
+            <td data-th-text="${'$ ' + product.unitPrice}">$ 0.00</td>
+            <td data-th-text="${product.stockQuantity}">0</td>
+            <td data-th-text="${product.category}">Categoría</td>
+            <td data-th-text="${product.statusText}">Sí</td>
+            <td class="actions">
+              <a
+                class="link"
+                href="/products"
+                data-th-href="@{/products/edit/{id}(id=${product.productId})}"
+              >
+                Editar
+              </a>
+              <form
+                action="/products"
+                data-th-action="@{/products/delete/{id}(id=${product.productId})}"
+                method="post"
+              >
+                <button
+                  class="danger"
+                  type="submit"
+                  onclick="return confirm('¿Desea eliminar este producto?');"
+                >
+                  Eliminar
+                </button>
+              </form>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

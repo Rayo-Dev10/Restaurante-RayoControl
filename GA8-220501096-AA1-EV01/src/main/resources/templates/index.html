@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante RayoControl</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" data-th-href="@{/assets/css/styles.css}" />
+  </head>
+
+  <body>
+    <main class="home">
+      <section class="hero">
+        <p class="eyebrow-dark">GA8-220501096-AA1-EV01</p>
+        <h1>Restaurante RayoControl</h1>
+        <p>
+          Sistema web con módulos integrados de productos y pedidos. Esta versión
+          evidencia codificación por capas, uso de Spring Boot, persistencia con
+          PostgreSQL, control de versiones y pruebas unitarias.
+        </p>
+        <div class="form-actions">
+          <a class="button" href="/products" data-th-href="@{/products}">Abrir módulo de productos</a>
+          <a class="secondary" href="/orders" data-th-href="@{/orders}">Abrir módulo de pedidos</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

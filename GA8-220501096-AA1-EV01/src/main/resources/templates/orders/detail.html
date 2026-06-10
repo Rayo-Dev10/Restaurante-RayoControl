@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalle del pedido</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" data-th-href="@{/assets/css/styles.css}" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Detalle del pedido</h1>
+        <p data-th-text="${customerOrder.displayName}">Cliente</p>
+      </div>
+      <a class="secondary" href="/orders" data-th-href="@{/orders}">Volver a pedidos</a>
+    </header>
+
+    <main class="container">
+      <section class="search-panel">
+        <p><strong>ID:</strong> <span data-th-text="${customerOrder.orderId}">1</span></p>
+        <p><strong>Estado:</strong> <span data-th-text="${customerOrder.orderStatus}">REGISTRADO</span></p>
+        <p><strong>Total:</strong> <span data-th-text="${'$ ' + customerOrder.totalAmount}">$ 0.00</span></p>
+      </section>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio unitario</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-th-each="item : ${customerOrder.items}">
+            <td data-th-text="${item.productName}">Producto</td>
+            <td data-th-text="${item.quantity}">1</td>
+            <td data-th-text="${'$ ' + item.unitPrice}">$ 0.00</td>
+            <td data-th-text="${'$ ' + item.subtotal}">$ 0.00</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
