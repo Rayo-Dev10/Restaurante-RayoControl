@@ -1,0 +1,17 @@
+GA8-220501096-AA1-EV02 - Modulos integrados - Restaurante-RayoControl
+
+1. Crear la base de datos rayocontrol_db en PostgreSQL.
+2. Ejecutar el script database/schema.sql.
+3. Verificar las credenciales en src/main/resources/application.properties.
+4. Compilar el proyecto con: mvn clean package
+5. Ejecutar pruebas unitarias con: mvn test
+6. Ejecutar la aplicacion con: mvn spring-boot:run
+7. Abrir en el navegador: http://localhost:8080
+8. Probar el modulo de productos en: http://localhost:8080/products
+9. Probar el modulo de pedidos en: http://localhost:8080/orders
+10. Consultar el detalle de un pedido desde la opcion Ver detalle.
+
+Esta evidencia entrega los modulos integrados de productos y pedidos, incluyendo codigo fuente, documentacion tecnica, ambiente de desarrollo y pruebas, acta de pruebas y aceptacion, control de versiones y evidencia de funcionamiento.
+
+Repositorio:
+https://github.com/Rayo-Dev10/Restaurante-RayoControl/tree/main/GA8-220501096-AA1-EV02

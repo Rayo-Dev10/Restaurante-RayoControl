@@ -1,0 +1,1 @@
+﻿Archivo compilado de la evidencia GA8-220501096-AA1-EV02. Este JAR fue generado con el comando mvn clean package y se entrega como soporte académico de los módulos integrados de Restaurante-RayoControl.

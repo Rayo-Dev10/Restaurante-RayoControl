@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" data-th-href="@{/assets/css/styles.css}" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Pedidos del restaurante</h1>
+        <p>
+          Registro de pedidos integrado con el modulo de productos del menu.
+        </p>
+      </div>
+      <div class="form-actions">
+        <a class="secondary" href="/" data-th-href="@{/}">Inicio</a>
+        <a class="button" href="/orders/new" data-th-href="@{/orders/new}">Nuevo pedido</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <p class="success-message" data-th-if="${successMessage}" data-th-text="${successMessage}"></p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Cliente / mesa</th>
+            <th>Estado</th>
+            <th>Total</th>
+            <th>Fecha</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-th-if="${#lists.isEmpty(orders)}">
+            <td colspan="6">No hay pedidos registrados.</td>
+          </tr>
+          <tr data-th-each="customerOrder : ${orders}">
+            <td data-th-text="${customerOrder.orderId}">1</td>
+            <td data-th-text="${customerOrder.displayName}">Cliente</td>
+            <td data-th-text="${customerOrder.orderStatus}">REGISTRADO</td>
+            <td data-th-text="${'$ ' + customerOrder.totalAmount}">$ 0.00</td>
+            <td data-th-text="${customerOrder.createdAt}">2026-01-01</td>
+            <td class="actions">
+              <a class="link" href="/orders/1" data-th-href="@{/orders/{id}(id=${customerOrder.orderId})}">Ver detalle</a>
+              <form action="/orders" data-th-action="@{/orders/delete/{id}(id=${customerOrder.orderId})}" method="post">
+                <button class="danger" type="submit" onclick="return confirm('¿Desea eliminar este pedido?');">Eliminar</button>
+              </form>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-th-text="${pageTitle}">Nuevo pedido</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" data-th-href="@{/assets/css/styles.css}" />
+  </head>
+
+  <body>
+    <main class="form-page">
+      <section class="card">
+        <h1 data-th-text="${pageTitle}">Nuevo pedido</h1>
+
+        <p class="field-error" data-th-if="${errorMessage}" data-th-text="${errorMessage}"></p>
+
+        <form action="/orders/save" data-th-action="@{/orders/save}" method="post">
+          <label>
+            Cliente o referencia del pedido
+            <input type="text" name="customerName" data-th-value="${customerName}" placeholder="Ejemplo: Cliente mostrador" required />
+          </label>
+
+          <label>
+            Numero de mesa
+            <input type="text" name="tableNumber" data-th-value="${tableNumber}" placeholder="Ejemplo: 4" />
+          </label>
+
+          <label>
+            Producto del menu
+            <select name="productId" required>
+              <option value="">Seleccione un producto</option>
+              <option data-th-each="product : ${products}" data-th-value="${product.productId}" data-th-text="${product.productName + ' - $ ' + product.unitPrice}" data-th-selected="${product.productId == productId}">Producto</option>
+            </select>
+          </label>
+
+          <label>
+            Cantidad
+            <input type="number" name="quantity" min="1" data-th-value="${quantity == null ? 1 : quantity}" required />
+          </label>
+
+          <div class="form-actions">
+            <button class="button" type="submit">Registrar pedido</button>
+            <a class="secondary" href="/orders" data-th-href="@{/orders}">Cancelar</a>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
