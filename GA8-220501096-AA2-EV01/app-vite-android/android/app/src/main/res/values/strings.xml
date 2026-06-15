@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RestauranteRayoControlAndroidDemo</string>
+    <string name="title_activity_main">RestauranteRayoControlAndroidDemo</string>
+    <string name="package_name">co.edu.sena.rayocontrol.demo</string>
+    <string name="custom_url_scheme">co.edu.sena.rayocontrol.demo</string>
+</resources>
