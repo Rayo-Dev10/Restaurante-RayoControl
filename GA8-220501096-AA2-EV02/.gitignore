@@ -1,0 +1,14 @@
+﻿app-movil/node_modules/
+app-movil/dist/
+app-movil/android/.gradle/
+app-movil/android/build/
+app-movil/android/app/build/
+app-movil/android/.idea/
+fuente/app-movil/node_modules/
+fuente/app-movil/dist/
+fuente/app-movil/android/.gradle/
+fuente/app-movil/android/build/
+fuente/app-movil/android/app/build/
+fuente/app-movil/android/.idea/
+*.log
+.DS_Store

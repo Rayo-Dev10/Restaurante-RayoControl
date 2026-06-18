@@ -1,0 +1,11 @@
+Edición aplicada a la evidencia GA8-220501096-AA2-EV02.
+
+Archivo fuente: 2026-06-17 20-06-56.mkv
+Subtítulos usados como guía: Video Project 6.srt
+Velocidad general aplicada a segmentos narrados: 1.18x
+Resolución conservada/exportada: 1920x1080
+Formato final: MP4
+Audio: voz aumentada al 400%, reducción de ruido, filtro pasa-altos/pasa-bajos, compresión, normalización dinámica y limitador para equilibrar picos altos y bajos.
+Cortes: se eliminaron marcas de edición pronunciadas, bloques en blanco del SRT, pausas largas, tiempos muertos de espera, fragmentos de carga y fragmentos identificados por ausencia de narración.
+Transiciones: portada inicial y títulos de transición por bloque.
+Se preservaron los segmentos de pruebas, compilación, generación de APK, copia/instalación y demostración funcional en BlueStacks.

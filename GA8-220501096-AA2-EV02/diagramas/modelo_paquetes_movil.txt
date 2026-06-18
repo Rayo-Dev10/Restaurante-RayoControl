@@ -1,0 +1,1 @@
+﻿Modelo de paquetes móvil - Restaurante-RayoControl. Paquete cliente: HomeView, ProductsView y OrderView. Paquete pedido: orderService y OrderSummary. Paquete cocina: KitchenView y StatusBadge. Paquete admin: AdminView y reportService. Esta separación conserva cohesión, bajo acoplamiento y trazabilidad con los modelos previos del proyecto.

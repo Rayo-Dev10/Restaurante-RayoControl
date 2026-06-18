@@ -1,0 +1,1 @@
+export function StatusBadge(status){const normalized=String(status||"SIN ESTADO").toLowerCase().replaceAll(" ","-");return`<span class="status-badge status-${normalized}">${status||"SIN ESTADO"}</span>`;}

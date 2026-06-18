@@ -1,0 +1,1 @@
+﻿Modelo de clases móvil - Restaurante-RayoControl. Cliente crea Pedido. Pedido contiene DetallePedido. DetallePedido referencia Producto. Usuario representa roles operativos como cliente, cocina y administración. En la APK móvil estas clases se implementan mediante productos locales, creación de pedido, resumen, cocina y administración.

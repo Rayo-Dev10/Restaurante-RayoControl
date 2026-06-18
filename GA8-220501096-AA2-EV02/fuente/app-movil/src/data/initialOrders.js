@@ -1,0 +1,1 @@
+export const initialOrders=[{idPedido:101,cliente:"Cliente mesa 3",mesa:"3",estado:"RECIBIDO",fechaHora:"15/06/2026, 5:30 p. m.",items:[{idProducto:1,nombre:"Menú ejecutivo",precio:15000,cantidad:2},{idProducto:2,nombre:"Limonada natural",precio:5000,cantidad:2}]}];
