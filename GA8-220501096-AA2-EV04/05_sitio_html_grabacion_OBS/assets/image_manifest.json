@@ -1,0 +1,302 @@
+[
+  {
+    "index": 1,
+    "file": "assets/1.png",
+    "title": "Datos",
+    "expected_width_px": 848,
+    "expected_height_px": 1264,
+    "aspect_ratio": 0.6709,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/1.svg"
+  },
+  {
+    "index": 2,
+    "file": "assets/2.png",
+    "title": "Red inteligente",
+    "expected_width_px": 1024,
+    "expected_height_px": 1024,
+    "aspect_ratio": 1.0,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/2.svg"
+  },
+  {
+    "index": 3,
+    "file": "assets/3.png",
+    "title": "Chef con tecnología",
+    "expected_width_px": 1440,
+    "expected_height_px": 736,
+    "aspect_ratio": 1.9565,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/3.svg"
+  },
+  {
+    "index": 4,
+    "file": "assets/4.png",
+    "title": "Robot de servicio",
+    "expected_width_px": 736,
+    "expected_height_px": 1440,
+    "aspect_ratio": 0.5111,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/4.svg"
+  },
+  {
+    "index": 5,
+    "file": "assets/5.png",
+    "title": "Interacción por voz",
+    "expected_width_px": 1296,
+    "expected_height_px": 816,
+    "aspect_ratio": 1.5882,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/5.svg"
+  },
+  {
+    "index": 6,
+    "file": "assets/6.png",
+    "title": "Ética en IA",
+    "expected_width_px": 816,
+    "expected_height_px": 1296,
+    "aspect_ratio": 0.6296,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/6.svg"
+  },
+  {
+    "index": 7,
+    "file": "assets/7.png",
+    "title": "Antecedentes y evolución",
+    "expected_width_px": 1264,
+    "expected_height_px": 848,
+    "aspect_ratio": 1.4906,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/7.svg"
+  },
+  {
+    "index": 8,
+    "file": "assets/8.png",
+    "title": "IA basada en reglas",
+    "expected_width_px": 848,
+    "expected_height_px": 1264,
+    "aspect_ratio": 0.6709,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/8.svg"
+  },
+  {
+    "index": 9,
+    "file": "assets/9.png",
+    "title": "Recomendación inteligente",
+    "expected_width_px": 1024,
+    "expected_height_px": 1024,
+    "aspect_ratio": 1.0,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/9.svg"
+  },
+  {
+    "index": 10,
+    "file": "assets/10.png",
+    "title": "Inventario",
+    "expected_width_px": 1440,
+    "expected_height_px": 736,
+    "aspect_ratio": 1.9565,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/10.svg"
+  },
+  {
+    "index": 11,
+    "file": "assets/11.png",
+    "title": "Mapa y geolocalización",
+    "expected_width_px": 736,
+    "expected_height_px": 1440,
+    "aspect_ratio": 0.5111,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/11.svg"
+  },
+  {
+    "index": 12,
+    "file": "assets/12.png",
+    "title": "Visión por computador",
+    "expected_width_px": 1296,
+    "expected_height_px": 816,
+    "aspect_ratio": 1.5882,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/12.svg"
+  },
+  {
+    "index": 13,
+    "file": "assets/13.png",
+    "title": "Analítica",
+    "expected_width_px": 816,
+    "expected_height_px": 1296,
+    "aspect_ratio": 0.6296,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/13.svg"
+  },
+  {
+    "index": 14,
+    "file": "assets/14.png",
+    "title": "Seguridad y privacidad",
+    "expected_width_px": 1264,
+    "expected_height_px": 848,
+    "aspect_ratio": 1.4906,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/14.svg"
+  },
+  {
+    "index": 15,
+    "file": "assets/15.png",
+    "title": "Cliente",
+    "expected_width_px": 848,
+    "expected_height_px": 1264,
+    "aspect_ratio": 0.6709,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/15.svg"
+  },
+  {
+    "index": 16,
+    "file": "assets/16.png",
+    "title": "Infraestructura en la nube",
+    "expected_width_px": 1024,
+    "expected_height_px": 1024,
+    "aspect_ratio": 1.0,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/16.svg"
+  },
+  {
+    "index": 17,
+    "file": "assets/17.png",
+    "title": "Speech to text",
+    "expected_width_px": 1440,
+    "expected_height_px": 736,
+    "aspect_ratio": 1.9565,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/17.svg"
+  },
+  {
+    "index": 18,
+    "file": "assets/18.png",
+    "title": "Modelo de aprendizaje",
+    "expected_width_px": 736,
+    "expected_height_px": 1440,
+    "aspect_ratio": 0.5111,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/18.svg"
+  },
+  {
+    "index": 19,
+    "file": "assets/19.png",
+    "title": "Sesgo",
+    "expected_width_px": 1296,
+    "expected_height_px": 816,
+    "aspect_ratio": 1.5882,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/19.svg"
+  },
+  {
+    "index": 20,
+    "file": "assets/20.png",
+    "title": "Futuro",
+    "expected_width_px": 816,
+    "expected_height_px": 1296,
+    "aspect_ratio": 0.6296,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/20.svg"
+  },
+  {
+    "index": 21,
+    "file": "assets/21.png",
+    "title": "Restaurante-RayoControl",
+    "expected_width_px": 1264,
+    "expected_height_px": 848,
+    "aspect_ratio": 1.4906,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/21.svg"
+  },
+  {
+    "index": 22,
+    "file": "assets/22.png",
+    "title": "Capas neuronales",
+    "expected_width_px": 848,
+    "expected_height_px": 1264,
+    "aspect_ratio": 0.6709,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/22.svg"
+  },
+  {
+    "index": 23,
+    "file": "assets/23.png",
+    "title": "Decisión apoyada por datos",
+    "expected_width_px": 1024,
+    "expected_height_px": 1024,
+    "aspect_ratio": 1.0,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/23.svg"
+  },
+  {
+    "index": 24,
+    "file": "assets/24.png",
+    "title": "Predicción de demanda",
+    "expected_width_px": 1440,
+    "expected_height_px": 736,
+    "aspect_ratio": 1.9565,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/24.svg"
+  },
+  {
+    "index": 25,
+    "file": "assets/25.png",
+    "title": "Dashboard administrativo",
+    "expected_width_px": 736,
+    "expected_height_px": 1440,
+    "aspect_ratio": 0.5111,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/25.svg"
+  },
+  {
+    "index": 26,
+    "file": "assets/26.png",
+    "title": "Aplicación móvil",
+    "expected_width_px": 816,
+    "expected_height_px": 1296,
+    "aspect_ratio": 0.6296,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/26.svg"
+  },
+  {
+    "index": 27,
+    "file": "assets/27.png",
+    "title": "Flujo de trabajo",
+    "expected_width_px": 816,
+    "expected_height_px": 1296,
+    "aspect_ratio": 0.6296,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/27.svg"
+  },
+  {
+    "index": 28,
+    "file": "assets/28.png",
+    "title": "Base de datos",
+    "expected_width_px": 1408,
+    "expected_height_px": 768,
+    "aspect_ratio": 1.8333,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/28.svg"
+  },
+  {
+    "index": 29,
+    "file": "assets/29.png",
+    "title": "Supervisión humana",
+    "expected_width_px": 816,
+    "expected_height_px": 1296,
+    "aspect_ratio": 0.6296,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/29.svg"
+  },
+  {
+    "index": 30,
+    "file": "assets/30.png",
+    "title": "Cierre visual",
+    "expected_width_px": 1408,
+    "expected_height_px": 768,
+    "aspect_ratio": 1.8333,
+    "status": "placeholder_empty_file_replace_with_generated_image",
+    "fallback": "assets/fallback/30.svg"
+  }
+]

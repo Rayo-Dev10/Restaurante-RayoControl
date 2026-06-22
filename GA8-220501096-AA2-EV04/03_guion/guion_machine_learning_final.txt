@@ -1,0 +1,122 @@
+GUION FINAL DE NARRACIÓN
+Evidencia GA8-220501096-AA2-EV04 — Video exposición sobre Machine Learning
+Proyecto: Restaurante-RayoControl
+
+LÁMINA 1 — APERTURA
+Cordial saludo. Mi nombre es Rayo Palatianos. En esta presentación hablaré sobre Machine Learning, o aprendizaje automático, una de las tecnologías más influyentes dentro de la inteligencia artificial actual.
+
+A lo largo de esta exposición veremos qué es, para qué sirve, cómo ha evolucionado, cuáles son sus principales enfoques, qué productos reales ya lo utilizan y por qué también plantea preguntas éticas, sociales y filosóficas.
+
+Además, al final mostraré cómo esta tecnología podría aportar valor al proyecto Restaurante-RayoControl, orientado a mejorar la administración y la toma de decisiones en un restaurante.
+
+LÁMINA 2 — QUÉ ES MACHINE LEARNING
+Machine Learning es una rama de la inteligencia artificial que permite que un sistema aprenda a partir de datos.
+
+La idea central es sencilla: datos, patrones y predicciones.
+
+En lugar de programar cada respuesta una por una, se alimenta al sistema con ejemplos para que identifique relaciones y regularidades.
+
+Después de ese aprendizaje, el sistema puede clasificar, recomendar, detectar comportamientos o anticipar resultados.
+
+Por ejemplo, si un restaurante acumula información de ventas durante meses, un modelo de Machine Learning puede ayudar a estimar cuáles platos se venderán más en ciertos días, horarios o temporadas.
+
+LÁMINA 3 — OBJETIVOS
+Los objetivos del Machine Learning pueden resumirse en cuatro ideas principales.
+
+Primero, automatizar decisiones repetitivas. Segundo, descubrir patrones que no son evidentes a simple vista. Tercero, predecir comportamientos futuros. Y cuarto, mejorar la experiencia de usuarios o clientes.
+
+En la práctica, esto significa que una organización puede usar Machine Learning para recomendar productos, anticipar demanda, detectar anomalías o personalizar la atención.
+
+En un restaurante, por ejemplo, esto puede traducirse en mejores compras, menor desperdicio, mejor rotación de inventario y decisiones más informadas.
+
+LÁMINA 4 — ANTECEDENTES
+El Machine Learning no apareció de manera repentina.
+
+Sus antecedentes se encuentran en varias áreas del conocimiento: la estadística, la lógica matemática, la informática y la inteligencia artificial.
+
+Durante mucho tiempo, los sistemas informáticos funcionaban principalmente con instrucciones fijas. Es decir, una persona definía las reglas y la máquina solo las ejecutaba.
+
+Con el paso del tiempo, el aumento del poder de cómputo y la disponibilidad masiva de datos hicieron posible un cambio importante: que las máquinas ya no solo siguieran reglas, sino que también aprendieran de la experiencia representada en los datos.
+
+Ese cambio abrió el camino para aplicaciones que hoy consideramos comunes, como asistentes de voz, recomendaciones inteligentes, reconocimiento de imágenes y modelos predictivos.
+
+LÁMINA 5 — INTELIGENCIA ARTIFICIAL Y MACHINE LEARNING
+La inteligencia artificial es el concepto más amplio.
+
+Su propósito general es lograr que una máquina realice tareas que normalmente asociamos con capacidades humanas, como razonar, decidir, reconocer patrones o resolver problemas.
+
+Dentro de ese universo aparece el Machine Learning.
+
+Y dentro del Machine Learning aparece un campo aún más específico, conocido como Deep Learning, que trabaja con redes neuronales de varias capas.
+
+Una forma simple de verlo es esta: inteligencia artificial como marco general, Machine Learning como una parte de ese marco, y Deep Learning como una especialización dentro del aprendizaje automático.
+
+Entender esa relación es importante porque muchas veces estos términos se usan como si fueran lo mismo, y en realidad están conectados, pero no son equivalentes.
+
+LÁMINA 6 — IA BASADA EN REGLAS
+Un primer enfoque de inteligencia artificial está orientado a la programación explícita de reglas.
+
+Aquí, una persona diseña instrucciones del tipo: si ocurre esto, entonces responde aquello.
+
+Por ejemplo: si un producto está agotado, no debe permitirse su selección. Si un pedido ya fue pagado, puede pasar al siguiente estado. Si el inventario cae por debajo de un umbral, se genera una alerta.
+
+Este enfoque funciona muy bien cuando las condiciones del negocio son claras y los escenarios posibles son relativamente controlables.
+
+Su fortaleza es la precisión. Su límite es que no aprende por sí mismo si el contexto cambia o si aparecen patrones nuevos.
+
+LÁMINA 7 — REDES NEURONALES
+El segundo enfoque está orientado a conexiones neuronales, es decir, a modelos inspirados en la idea de redes de neuronas.
+
+Esto no significa que la máquina piense como un ser humano.
+
+Lo que significa es que procesa información mediante múltiples conexiones internas que se ajustan durante el entrenamiento.
+
+La lógica general puede resumirse en tres pasos: entrada, procesamiento y salida.
+
+Se ingresan datos, el modelo encuentra relaciones internas, y luego produce una respuesta, como una clasificación, una recomendación o una predicción.
+
+Si se entrena con suficientes datos de ventas, por ejemplo, puede aprender qué productos suelen venderse juntos o en qué momentos aumenta la demanda de ciertos platos.
+
+LÁMINA 8 — PRODUCTOS CON IA
+Hoy convivimos con productos que usan inteligencia artificial mucho más de lo que a veces imaginamos.
+
+Los asistentes de voz transforman la voz en acciones. Las plataformas de contenido recomiendan películas, música o videos. Los sistemas de navegación calculan rutas y tiempos estimados. Los filtros de correo detectan mensajes sospechosos. Y los sistemas de reconocimiento de voz convierten audio en texto.
+
+En el contexto de un restaurante, también podríamos pensar en soluciones como recomendación de platos, predicción de demanda, toma de pedidos por voz, análisis de reseñas y apoyo a decisiones de compra.
+
+Lo importante aquí es notar que la inteligencia artificial no es una idea lejana: ya está presente en productos reales y en actividades cotidianas.
+
+LÁMINA 9 — ÉTICA, SOCIEDAD Y FILOSOFÍA
+El Machine Learning ofrece beneficios muy valiosos, pero también plantea retos profundos.
+
+Uno de ellos es el sesgo. Si los datos usados para entrenar un sistema son incompletos, desbalanceados o injustos, el resultado también puede ser injusto.
+
+Otro reto es la transparencia. Muchas veces, una persona recibe una recomendación o una decisión automatizada sin entender con claridad por qué se produjo.
+
+También aparece el tema de la privacidad, porque estas tecnologías suelen depender de grandes volúmenes de datos.
+
+Y, a nivel más filosófico, surge una pregunta importante: no solo qué puede hacer una máquina, sino qué debería hacer, bajo qué límites y con qué nivel de supervisión humana.
+
+Por eso, el uso responsable del Machine Learning exige criterio técnico, criterio ético y responsabilidad social.
+
+LÁMINA 10 — APLICACIÓN A RESTAURANTE-RAYOCONTROL
+En el proyecto Restaurante-RayoControl, Machine Learning podría representar una evolución muy interesante.
+
+Por ejemplo, podría ayudar a prever la demanda de ciertos platos, identificar productos de alta o baja rotación, analizar horarios de mayor venta, detectar patrones en pedidos y apoyar decisiones de inventario.
+
+También podría servir para recomendar menús, identificar hábitos de consumo o generar reportes más inteligentes para la administración.
+
+Lo más importante es entender que el valor no está solo en guardar datos, sino en convertir esos datos en información útil.
+
+En otras palabras, el sistema dejaría de ser solo un registro operativo y se convertiría en una herramienta de apoyo para decidir mejor.
+
+LÁMINA 11 — CIERRE
+En conclusión, Machine Learning es una tecnología que permite a los sistemas aprender a partir de datos para reconocer patrones, predecir comportamientos y apoyar decisiones.
+
+Su importancia crece cada día porque se aplica en productos reales y en contextos muy diversos.
+
+Sin embargo, su desarrollo y uso también deben ir acompañados de responsabilidad ética, supervisión humana y cuidado en el manejo de la información.
+
+Aplicado al proyecto Restaurante-RayoControl, Machine Learning abre la posibilidad de pasar de una gestión simplemente operativa a una gestión respaldada por datos y análisis.
+
+Muchas gracias.

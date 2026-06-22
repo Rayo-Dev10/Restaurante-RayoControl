@@ -1,0 +1,45 @@
+CRÉDITOS Y TRAZABILIDAD DE RECURSOS
+
+Evidencia: GA8-220501096-AA2-EV04 — Video exposición sobre Machine Learning
+
+Recursos de apoyo utilizados:
+
+1. Guion y estructura de exposición:
+   - ChatGPT, modelo GPT-5.5.
+   - Uso: apoyo para estructurar el guion, mejorar la claridad narrativa y organizar la exposición.
+
+2. Imágenes de apoyo visual:
+   - Nano Banana Pro / Gemini AI Plan Pro.
+   - Uso: generación de imágenes visuales para láminas y subescenas del video.
+
+3. Voz narrada:
+   - ElevenLabs, plan gratuito.
+   - Voz: narrador latinoamericano.
+   - Uso: generación de múltiples archivos MP3 a partir del guion, con variaciones de entonación y estilo.
+
+4. Sitio HTML propio de presentación:
+   - Uso: construcción de láminas, subescenas, animaciones e integración de archivos de audio para reproducción automática.
+
+5. Grabación:
+   - OBS Studio.
+   - Uso: captura de la reproducción automática de la presentación.
+
+6. Edición principal:
+   - Clipchamp.
+   - Uso: recorte de segmentos operativos de inicio, pantalla completa y cierre de grabación.
+
+7. Compresión:
+   - VLC Player.
+   - Perfil usado: Video - H.264 + MP3 (MP4).
+   - Encapsulamiento: MP4/MOV.
+   - Códec de video: H.264.
+   - Tasa de bits: 2000 kb/s.
+   - Fotogramas: misma tasa de origen.
+   - Audio: mantener pista de audio original.
+
+8. Posprocesado sonoro:
+   - ChatGPT modelo GPT-5.5 con razonamiento alto.
+   - Uso: incorporación de música de fondo original y ajuste de volumen con ducking frente a la voz narrada.
+
+Finalidad de uso:
+Todo el material se usó con finalidad académica, como soporte de una evidencia SENA, sin explotación comercial.

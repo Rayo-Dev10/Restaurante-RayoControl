@@ -1,0 +1,12 @@
+Créditos de audio
+
+La cama sonora de esta versión fue generada de forma original mediante síntesis procedural: pads, pulsos suaves, texturas de datos y transiciones discretas. No se incorporaron canciones comerciales ni librerías externas con restricciones.
+
+Uso previsto: evidencia académica SENA GA8-220501096-AA2-EV04.
+
+Procesamiento aplicado:
+- Portada inicial de 4 segundos.
+- Música/sonido de fondo durante todo el video.
+- Reducción automática del fondo durante segmentos con voz, basada en marcas del archivo SRT.
+- Aumento del fondo en espacios sin voz.
+- Variación de ambiente por bloques para evitar monotonía.

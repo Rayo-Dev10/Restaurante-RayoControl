@@ -1,0 +1,256 @@
+{
+  "project": "GA8-220501096-AA2-EV04",
+  "series_name": "Machine Learning para Restaurante-RayoControl",
+  "generator_target": "Nano Banana Pro",
+  "conversation_protocol": {
+    "first_turn_behavior": "Genera únicamente la imagen 1. Después responde: 1 de 30 generadas.",
+    "advance_command": "Cuando el usuario escriba avanza, genera únicamente la siguiente imagen pendiente.",
+    "finish_behavior": "Cuando termines la imagen 30, responde: 30 de 30 generadas. Serie completa."
+  },
+  "global_requirements": {
+    "resolution_policy": "Usar exactamente el ancho y alto indicados para cada imagen, sin aumentar resolución.",
+    "negative_prompt": "no watermark, no logo, no text overlay, no captions, no blurry details, no duplicated subjects, no repeated composition, no generic clipart, no distorted hands, no malformed devices, no broken anatomy, no unrelated objects, no UI gibberish"
+  },
+  "images": [
+    {
+      "index": 1,
+      "file_name": "01_datos.png",
+      "width": 600,
+      "height": 900,
+      "title": "Datos",
+      "prompt": "Vertical image about data as raw material for machine learning, dashboards, orders, inventory signals flowing to a glowing data core, modern blue violet cyan palette, no text, no logos. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 2,
+      "file_name": "02_red.png",
+      "width": 800,
+      "height": 800,
+      "title": "Red inteligente",
+      "prompt": "Square detailed neural network with glowing layers, data pulses and intelligent connections, scientific modern style, no text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 3,
+      "file_name": "03_chef.png",
+      "width": 1000,
+      "height": 520,
+      "title": "Chef con tecnología",
+      "prompt": "Wide realistic modern restaurant kitchen, professional chef using tablet to manage digital orders, cinematic editorial style, no logos. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 4,
+      "file_name": "04_robot.png",
+      "width": 520,
+      "height": 1000,
+      "title": "Robot de servicio",
+      "prompt": "Vertical friendly service robot in stylish restaurant, plausible modern hospitality technology, no text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 5,
+      "file_name": "05_voice.png",
+      "width": 1100,
+      "height": 700,
+      "title": "Interacción por voz",
+      "prompt": "Wide restaurant customer or waiter using voice interaction with a smart device, subtle voice waves, realistic and warm. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 6,
+      "file_name": "06_ethics.png",
+      "width": 700,
+      "height": 1100,
+      "title": "Ética en IA",
+      "prompt": "Vertical ethics in AI, human hand and digital AI hand near balanced scale, fairness privacy responsibility, serious elegant. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 7,
+      "file_name": "07_timeline.png",
+      "width": 900,
+      "height": 600,
+      "title": "Antecedentes",
+      "prompt": "Wide visual timeline from early computing to AI, machine learning and deep learning, symbolic eras, no readable text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 8,
+      "file_name": "08_rules.png",
+      "width": 600,
+      "height": 900,
+      "title": "Reglas",
+      "prompt": "Vertical rule-based decision logic in restaurant management, if-then branching board without readable text, modern UI composition. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 9,
+      "file_name": "09_recommend.png",
+      "width": 800,
+      "height": 800,
+      "title": "Recomendación",
+      "prompt": "Square smart restaurant recommendation, customer with tablet showing dish suggestions, personalization concept, no text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 10,
+      "file_name": "10_inventory.png",
+      "width": 1000,
+      "height": 520,
+      "title": "Inventario",
+      "prompt": "Wide restaurant storage room with digital inventory monitoring, shelves ingredients and manager checking analytics. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 11,
+      "file_name": "11_map.png",
+      "width": 520,
+      "height": 1000,
+      "title": "Mapa",
+      "prompt": "Vertical geolocation concept for delivery and restaurant route map with pins, no readable labels. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 12,
+      "file_name": "12_vision.png",
+      "width": 1100,
+      "height": 700,
+      "title": "Visión por computador",
+      "prompt": "Wide computer vision in restaurant, plated dish analyzed with subtle AI overlay, quality check, realistic. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 13,
+      "file_name": "13_analytics.png",
+      "width": 700,
+      "height": 1100,
+      "title": "Analítica",
+      "prompt": "Vertical elegant analytics dashboard for restaurant business, sales trends, demand patterns, manager reviewing, no text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 14,
+      "file_name": "14_security.png",
+      "width": 900,
+      "height": 600,
+      "title": "Seguridad",
+      "prompt": "Wide cybersecurity and data protection for intelligent restaurant system, digital shield and data flows. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 15,
+      "file_name": "15_customer.png",
+      "width": 600,
+      "height": 900,
+      "title": "Cliente",
+      "prompt": "Vertical happy restaurant customer using digital menu, hospitality and user-centered technology. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 16,
+      "file_name": "16_cloud.png",
+      "width": 800,
+      "height": 800,
+      "title": "Nube",
+      "prompt": "Square cloud computing and AI infrastructure, connected devices and data flow, enterprise clean style. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 17,
+      "file_name": "17_speech.png",
+      "width": 1000,
+      "height": 520,
+      "title": "Speech to text",
+      "prompt": "Wide speech-to-text concept, restaurant worker dictating into device, audio becoming digital transcript-like interface, no readable text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 18,
+      "file_name": "18_model.png",
+      "width": 520,
+      "height": 1000,
+      "title": "Modelo",
+      "prompt": "Vertical machine learning pipeline, raw data to model training to prediction output, clear explanatory visual no text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 19,
+      "file_name": "19_bias.png",
+      "width": 1100,
+      "height": 700,
+      "title": "Sesgo",
+      "prompt": "Wide responsible AI bias concept, diverse people and data categories evaluated by system, serious balanced. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 20,
+      "file_name": "20_future.png",
+      "width": 700,
+      "height": 1100,
+      "title": "Futuro",
+      "prompt": "Vertical future of intelligent hospitality, modern restaurant ecosystem enhanced by AI, aspirational and believable. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 21,
+      "file_name": "21_restaurant.png",
+      "width": 900,
+      "height": 600,
+      "title": "Restaurante",
+      "prompt": "Wide hero smart restaurant with digital order management, dashboard support and kitchen coordination, no text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 22,
+      "file_name": "22_layers.png",
+      "width": 600,
+      "height": 900,
+      "title": "Capas",
+      "prompt": "Vertical layered neural network architecture, input nodes hidden layers output nodes, glowing paths, no text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 23,
+      "file_name": "23_decision.png",
+      "width": 800,
+      "height": 800,
+      "title": "Decisión",
+      "prompt": "Square restaurant manager making decision with smart analytics dashboard, human judgment supported by technology. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 24,
+      "file_name": "24_prediction.png",
+      "width": 1000,
+      "height": 520,
+      "title": "Predicción",
+      "prompt": "Wide demand forecasting for restaurant menu items, predictive curves and dishes, no readable text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 25,
+      "file_name": "25_dashboard.png",
+      "width": 520,
+      "height": 1000,
+      "title": "Dashboard",
+      "prompt": "Vertical tall dashboard on tablet or mobile for restaurant control, sales, orders, stock, alerts, no readable microtext. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 26,
+      "file_name": "26_mobile.png",
+      "width": 1100,
+      "height": 700,
+      "title": "Móvil",
+      "prompt": "Wide multi-device restaurant app concept, smartphone and tablet with ordering, analytics and status tracking, no text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 27,
+      "file_name": "27_workflow.png",
+      "width": 700,
+      "height": 1100,
+      "title": "Flujo",
+      "prompt": "Vertical workflow from customer order to kitchen to service to management insight, connected stages no readable text. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 28,
+      "file_name": "28_database.png",
+      "width": 900,
+      "height": 600,
+      "title": "Base de datos",
+      "prompt": "Wide database and records concept for orders inventory and customers, server/database cylinders, enterprise style. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 29,
+      "file_name": "29_human.png",
+      "width": 600,
+      "height": 900,
+      "title": "Humano",
+      "prompt": "Vertical human oversight in AI, person monitoring intelligent system responsibly, calm and trustworthy. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    },
+    {
+      "index": 30,
+      "file_name": "30_credits.png",
+      "width": 800,
+      "height": 800,
+      "title": "Cierre",
+      "prompt": "Square elegant closing visual for machine learning presentation, technology, hospitality and future innovation, open space for credits. High impact presentation visual, vibrant professional color grading, no watermark, no logo, no text."
+    }
+  ]
+}

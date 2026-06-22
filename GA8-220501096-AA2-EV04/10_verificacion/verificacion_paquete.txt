@@ -1,0 +1,21 @@
+VERIFICACIÓN DEL PAQUETE
+
+Fecha de consolidación: 2026-06-22 22:31:05
+
+Incluido:
+- 30 imágenes PNG generadas para la presentación.
+- Sitio HTML de grabación OBS, sin carpeta de fallbacks.
+- Guion final.
+- Subtítulos disponibles.
+- Portada generada, créditos y plan de audio cuando estaban disponibles.
+- Nota de producción detallada.
+- Configuración de Clipchamp, VLC y posprocesado con ducking.
+
+Excluido por solicitud del aprendiz:
+- Video MP4 final.
+
+Excluido por instrucción explícita:
+- Fallbacks SVG del ZIP de trabajo.
+
+Observación:
+El ZIP adjunto de auditoría no contenía archivos de audio de ElevenLabs. Se conserva carpeta y README de trazabilidad de audio.

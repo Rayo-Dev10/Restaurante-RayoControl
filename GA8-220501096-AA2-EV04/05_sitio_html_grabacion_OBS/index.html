@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GA8 AA2 EV04 - Presentación narrada</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="stage" class="stage">
+      <div id="slide" class="slide"></div>
+      <aside id="recorder" class="recorder" aria-live="polite">
+        <div class="rec-dot"></div>
+        <div>
+          <strong id="rec-title">Grabación</strong
+          ><span id="rec-status">Inactiva</span>
+        </div>
+        <canvas id="meter" width="220" height="42"></canvas>
+      </aside>
+      <div id="hud" class="hud"></div>
+      <input id="audio-file" class="hidden" type="file" accept=".mp3,.mp4,audio/mpeg,audio/mp4,video/mp4" />
+      <section id="audio-panel" class="audio-panel hidden" aria-label="Audios por lamina y escena">
+        <div class="audio-panel-head">
+          <h2>Audios</h2>
+          <button type="button" data-action="close-panel">Cerrar</button>
+        </div>
+        <div id="audio-list" class="audio-list"></div>
+      </section>
+      <div id="help" class="help hidden">
+        <h2>Controles</h2>
+        <p><b>→ / espacio</b>: avanzar escena</p>
+        <p><b>←</b>: retroceder escena</p>
+        <p><b>G</b>: subir audio MP3/MP4 para la escena actual</p>
+        <p><b>Mayús + G</b>: iniciar/detener grabación de la escena actual</p>
+        <p><b>A</b>: reproducir audio de la escena actual</p>
+        <p><b>Enter</b>: reproducir todas las escenas desde el inicio</p>
+        <p><b>P</b>: pausar/reanudar reproducción automática</p>
+        <p><b>S</b>: detener reproducción automática</p>
+        <p><b>W</b>: panel de audios por escena</p>
+        <p><b>Esc</b>: detener reproducción automática</p>
+        <p><b>F</b>: pantalla completa</p>
+        <p><b>H</b>: ayuda</p>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

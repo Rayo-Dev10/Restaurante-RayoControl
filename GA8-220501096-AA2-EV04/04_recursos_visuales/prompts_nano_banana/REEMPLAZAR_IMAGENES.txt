@@ -1,0 +1,15 @@
+INSTRUCCIONES PARA REEMPLAZAR IMÁGENES
+
+Esta carpeta assets ya contiene 30 archivos .png vacíos:
+1.png, 2.png, 3.png ... 30.png
+
+Reemplaza cada archivo vacío por la imagen generada correspondiente, conservando exactamente el mismo nombre.
+Ejemplo:
+- La imagen generada 1 debe reemplazar assets/1.png
+- La imagen generada 10 debe reemplazar assets/10.png
+- La imagen generada 30 debe reemplazar assets/30.png
+
+No cambies nombres, no agregues ceros delante y no muevas las imágenes a otra carpeta.
+El HTML ya busca las imágenes directamente como assets/1.png, assets/2.png, etc.
+
+Si un archivo queda vacío o da error, la presentación usa automáticamente el respaldo SVG local de assets/fallback.

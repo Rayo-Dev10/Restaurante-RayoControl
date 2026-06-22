@@ -1,0 +1,1 @@
+Para evitar duplicar peso, las imágenes finales están en ../04_recursos_visuales/imagenes_nano_banana/. El app.js del sitio HTML apunta a esa ruta relativa.

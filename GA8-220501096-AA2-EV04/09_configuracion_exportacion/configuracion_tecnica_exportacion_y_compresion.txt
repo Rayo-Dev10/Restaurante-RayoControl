@@ -1,0 +1,36 @@
+CONFIGURACIÓN TÉCNICA DEL PROCESO
+
+1. Diseño de presentación
+- Sitio web HTML diseñado para construir láminas y subescenas.
+- Inserción de imágenes generadas y audios MP3.
+- Modo de reproducción automática para grabación en OBS Studio.
+
+2. Generación de voz
+- Herramienta: ElevenLabs.
+- Plan: gratuito.
+- Voz: narrador latinoamericano.
+- Resultado: múltiples archivos MP3 usados por lámina o subescena.
+
+3. Grabación
+- Herramienta: OBS Studio.
+- Método: captura de pantalla o ventana del sitio HTML en modo reproducción.
+
+4. Edición
+- Herramienta: Clipchamp.
+- Acción: recorte de partes operativas antes de iniciar la exposición y al finalizar la grabación.
+
+5. Exportación y compresión
+- Video inicial: aproximadamente 1.3 GB.
+- Herramienta: VLC Player.
+- Perfil: Video - H.264 + MP3 (MP4).
+- Encapsulamiento: MP4/MOV.
+- Códec de video: H.264.
+- Tasa de bits de video: 2000 kb/s.
+- Tasa de fotogramas: conservar la misma tasa de origen.
+- Códec de audio: mantener pista de audio original.
+- Resultado aproximado: video de 41 MB antes del posprocesado sonoro final.
+
+6. Posprocesado sonoro
+- Herramienta: ChatGPT modelo GPT-5.5 con razonamiento alto.
+- Acción: agregar música de fondo con ducking.
+- Regla aplicada: volumen bajo durante narración, volumen completo en espacios sin voz.

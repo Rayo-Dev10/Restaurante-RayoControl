@@ -1,0 +1,1 @@
+Los SVG fallback del paquete de trabajo fueron omitidos intencionalmente por solicitud del aprendiz. La evidencia conserva las 30 imágenes finales generadas con Nano Banana Pro/Gemini AI Plan Pro.

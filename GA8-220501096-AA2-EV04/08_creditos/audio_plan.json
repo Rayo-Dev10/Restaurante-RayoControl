@@ -1,0 +1,65 @@
+{
+  "source_video": "/mnt/data/Video Project 9_comprimido.mp4",
+  "source_duration_seconds": 570.816,
+  "cover_duration_seconds": 4.0,
+  "output_duration_seconds": 574.816,
+  "ducking_method": "Subtitle-timed background envelope: full level during cover and no-subtitle gaps, reduced level under subtitle/voice intervals.",
+  "segments": [
+    {
+      "start": 0,
+      "end": 18,
+      "sound_design": "intro tech shimmer"
+    },
+    {
+      "start": 18,
+      "end": 65,
+      "sound_design": "data pulse"
+    },
+    {
+      "start": 65,
+      "end": 120,
+      "sound_design": "optimistic arpeggio"
+    },
+    {
+      "start": 120,
+      "end": 180,
+      "sound_design": "historical warm pad"
+    },
+    {
+      "start": 180,
+      "end": 245,
+      "sound_design": "ai relationship glass"
+    },
+    {
+      "start": 245,
+      "end": 310,
+      "sound_design": "rules minimal rhythm"
+    },
+    {
+      "start": 310,
+      "end": 375,
+      "sound_design": "neural network motion"
+    },
+    {
+      "start": 375,
+      "end": 445,
+      "sound_design": "products dynamic"
+    },
+    {
+      "start": 445,
+      "end": 520,
+      "sound_design": "ethics reflective"
+    },
+    {
+      "start": 520,
+      "end": 574.816,
+      "sound_design": "project hopeful close"
+    }
+  ],
+  "voice_intervals_count": 213,
+  "files": {
+    "cover": "/mnt/data/ev04_video_sound_work/cover_ml.png",
+    "background": "/mnt/data/ev04_video_sound_work/background_dynamic_ducked.wav",
+    "shifted_srt": "/mnt/data/ev04_video_sound_work/GA8_AA2_EV04_subtitulos_shift_4s.srt"
+  }
+}
