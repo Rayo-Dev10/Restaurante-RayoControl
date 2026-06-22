@@ -20,7 +20,7 @@ Contenido del paquete:
 9. Verificación de recursos incluidos.
 
 Video final:
-https://drive.google.com/file/d/1z8NgR9ciWrvf-EcZPhhjkL4yp0YpxZHC/view
+https://drive.google.com/file/d/1odt8LXNmyDUrE8VR7BNyXbu1h0Y8SVN2/view
 
 
 Descripción del video:
