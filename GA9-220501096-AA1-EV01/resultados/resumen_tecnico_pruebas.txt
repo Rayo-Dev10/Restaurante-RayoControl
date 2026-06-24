@@ -1,0 +1,26 @@
+Resumen técnico de pruebas ejecutadas
+
+Evidencia: GA9-220501096-AA1-EV01
+Proyecto: Restaurante-RayoControl
+Herramienta principal: Playwright
+Gestor de paquetes: pnpm
+Navegadores usados: Microsoft Edge y Chromium
+Servidor de prueba: Vite
+URL de prueba: http://localhost:5173/
+
+Resultado:
+Se ejecutaron 4 pruebas automatizadas:
+- 2 pruebas sobre Microsoft Edge.
+- 2 pruebas sobre Chromium.
+
+Resultado final:
+4 passed.
+
+Pruebas realizadas:
+1. Carga de la aplicación Restaurante-RayoControl.
+2. Verificación de contenido funcional visible en la interfaz principal.
+
+Evidencias generadas:
+- Capturas automáticas desde Playwright.
+- Reporte HTML de ejecución.
+- Capturas manuales del proceso.
